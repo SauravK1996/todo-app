@@ -11,7 +11,7 @@ const TodoForm = () => {
         }else{
             setTodo("");
         }
-    },[currentTodo.id])
+    },[currentTodo.id]);
 
     const handleSubmit = (event) => {
         event.preventDefault();

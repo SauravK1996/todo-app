@@ -24,7 +24,7 @@ const TodoList = () => {
                             onClick={() => dispatch({type: "SET_CURRENT_TODO", payload: todo})}
                         >
                             <img 
-                                src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/1024px-OOjs_UI_icon_edit-ltr-progressive.svg.png" 
+                                src="https://i.ibb.co/gzKWjM2/edit.png" 
                                 alt="Edit Icon"
                                 className="h-6"
                             />
@@ -33,7 +33,7 @@ const TodoList = () => {
                             onClick={() => dispatch({type: "REMOVE_TODO", payload: todo})}
                         >
                             <img 
-                                src="https://img2.pngio.com/delete-icon-of-glyph-style-available-in-svg-png-eps-ai-icon-delete-icon-png-256_256.png" 
+                                src="https://i.ibb.co/9hPJ8Rg/delete.png" 
                                 alt="Delete Icon"
                                 className="h-6"
                             />
